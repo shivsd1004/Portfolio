@@ -58,9 +58,9 @@ const frontendData = [
 
 function Projects() {
   const [active, setActive] = useState(0);
-  const [webApps, setWebApps] = useState([...webAppsData]);
-  const [backend, setBackend] = useState([...backendData]);
-  const [frontend, setFrontend] = useState([...frontendData]);
+  const [webApps] = useState([...webAppsData]);
+  const [backend] = useState([...backendData]);
+  const [frontend] = useState([...frontendData]);
 
   const allProjects = useMemo(() => {
     switch (active) {

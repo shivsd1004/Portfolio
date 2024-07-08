@@ -1,7 +1,6 @@
 import About from "../components/About";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
-import MenuDrawer from "../components/MenuDrawer";
 import Skills from "../layout/Skills";
 import Projects from "../layout/Projects";
 import Contact from "../layout/Contact";
@@ -17,7 +16,6 @@ function Homepage() {
       <Projects />
       <Contact />
       <Footer />
-      <MenuDrawer />
     </>
   );
 }

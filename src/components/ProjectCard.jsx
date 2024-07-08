@@ -45,25 +45,34 @@ function ProjectCard({ data }) {
         <span className={styles.projectCard__subheading}>{data.about}</span>
       )}
       {!isPlaying && (
-        <Link className={styles.projectCard__button} to={data.link} target='_blank'>
-          {data.isLive ? 'Live  demo' : 'View code'}
+        <Link
+          className={styles.projectCard__button}
+          to={data.link}
+          target="_blank"
+        >
+          {data.isLive ? "Live  demo" : "View code"}
           <i className={`uil uil-arrow-right ${styles.projectCard__icon}`}></i>
         </Link>
       )}
 
-      {/* {isHover && !isPlaying && (
+      {isHover && !isPlaying && (
         <div
           className={`${styles.projectCard__tags} ${isHover ? "visible" : ""}`}
         >
           <ul className={styles.projectCard__tagList}>
             {data.tags.map((tag) => (
-              <li className={`${styles.projectCard__tag} ${isHover ? "visible" : ""}`} key={tag}>
+              <li
+                className={`${styles.projectCard__tag} ${
+                  isHover ? "visible" : ""
+                }`}
+                key={tag}
+              >
                 {tag}
               </li>
             ))}
           </ul>
         </div>
-      )} */}
+      )}
 
       {!isPlaying && data.isVideo && (
         <span className={styles.projectCard__video} onClick={handleOpen}>

@@ -42,7 +42,7 @@ function Navbar() {
       <div className={styles.navbar}>
         <div className={styles.navbar__inner}>
           <div className="navbar__left">
-            <NavLink to="#" onClick={() => scrollToSection("navbar")}>
+            <NavLink to="" onClick={() => scrollToSection("navbar")}>
               <p className={styles.navbar__logo}>Shivam</p>
             </NavLink>
           </div>

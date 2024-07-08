@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "leaflet/dist/leaflet.css";
 import styles from "./Map.module.scss";
 import "leaflet/dist/images/marker-shadow.png";
-import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
+import { MapContainer, TileLayer } from "react-leaflet";
 
 // JSX
 function Map() {
