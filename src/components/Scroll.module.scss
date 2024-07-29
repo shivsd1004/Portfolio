@@ -34,3 +34,19 @@
     transform: translateY(3.75rem);
   }
 }
+@media only screen and (max-width: 760px) {
+  .uFlex {
+    width: 6rem;
+    justify-content: center;
+    margin-left: 0.8rem;
+    margin-top: 2rem;
+  }
+
+  .scroll {
+    width: fit-content;
+
+    &__text {
+      width: fit-content;
+    }
+  }
+}

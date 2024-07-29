@@ -16,3 +16,9 @@
     color: var(--text-color-dark);
   }
 }
+@media only screen and (max-width: 760px) {
+  .headings {
+    margin-top: 0;
+    margin-bottom: 2.4rem;
+  }
+}

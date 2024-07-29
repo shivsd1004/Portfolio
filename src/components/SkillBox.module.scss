@@ -32,3 +32,9 @@
   align-items: center;
   width: fit-content;
 }
+
+@media only screen and (max-width: 760px) {
+  .skill__container {
+    width: 7.2rem;
+  }
+}

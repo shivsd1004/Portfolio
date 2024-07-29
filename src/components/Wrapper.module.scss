@@ -2,3 +2,9 @@
   width: 100vw;
   margin-bottom: 4rem;
 }
+@media only screen and (max-width: 760px) {
+  .wrapper {
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+  }
+}
